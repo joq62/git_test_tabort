@@ -1,0 +1,13 @@
+1) create file and/or dirs
+
+2) git init
+3) git add *
+4) git commit -m "created"
+5) git push
+6) git tag -a 1.0.0 -m "version info"
+7) git push origin 1.0.0
+
+
+Clone to directory 1.0.0
+git clone --depth 1 --branch 1.0.0 https://github.com/joq62/git_test.git 1.0.0
+
