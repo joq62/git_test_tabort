@@ -1,6 +1,8 @@
 -module(git_push).
 -export([push_file/3]).
 
+hejhopp
+
 push_file(FilePath, RepoUrl, AccessToken) ->
     {ok, FileContent} = file:read_file(FilePath),
     FileName = filename:basename(FilePath),
